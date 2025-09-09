@@ -1,6 +1,6 @@
 body {
     color:navy;
-    animation: bgcolor 5s infinite;
+    animation: bgcolor 2s infinite;
     animation-direction:alternate-reverse
 }
 @keyframes bgcolor {
