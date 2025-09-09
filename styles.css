@@ -1,4 +1,11 @@
 body {
-    background-color: aqua;
-    color:orangered;
+    color:navy;
+    animation: bgcolor 5s infinite;
+    animation-direction:alternate-reverse
+}
+@keyframes bgcolor {
+    0% { background-color: #d5e0b3;}
+    25% { background-color: #FFFFC5;}
+    50% { background-color: #FF9B78;}
+    100% {background-color: #e48782}
 }
